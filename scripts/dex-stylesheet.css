@@ -1,0 +1,409 @@
+.style11 {font-family: "Segoe UI"; font-size: 16px;;color: #dddddd;  }
+.style35 {font-family: "Segoe UI"; font-size: 16px;;color: #efefef;  }
+.style48 {font-family: "Segoe UI"; font-size: 16px; color: #ffffff; }
+.amber {font-family: "Segoe UI"; font-size: 16px; color: #ffcc33; }
+
+.style36 {font-family: "Segoe UI"; font-size: 20px; color: #ffffff; }
+.style37 {font-family: "Segoe UI"; font-size: 18px;;color: #99ccff;}
+.style43 {font-family: "Segoe UI"; font-size: 20px;color: #ffffff; }
+.style30 {font-family: "Segoe UI"; font-size: 20px;color: #ffffff; }
+
+
+.fineprint_header {font-family: "Segoe UI"; font-size: 14px;;color: #efefef;}
+.fineprint_normal {font-family: "Segoe UI"; font-size: 12px;;color: #dddddd;}
+.fineprint_red {font-family: "Segoe UI"; font-size: 12px;;color: #ff9999;}
+.fineprint_blueheader {font-family: "Segoe UI"; font-size: 14px;;color: #99ccff;}
+
+.charttitle {font-family: "Segoe UI"; font-size: 18px;color: #99ccff; }
+.chartheader {font-family: "Segoe UI"; font-size: 16px;color: #99ccff; }
+
+.normal {font-family: "Segoe UI";font-size: 16;;color: #efefef;}
+.medium {font-family: "Segoe UI"; font-size: 16;;color: #eeee55;}
+.low {font-family: "Segoe UI"; font-size: 16;;color: #ff9999;}
+.toggle {font-family: "Segoe UI"; font-size: 14;;color: #ffcc33;}
+.assetStats {font-family: "Segoe UI"; font-size: 12;;color: #ffcc33;}
+
+.Buy {color: #99FF99;}
+.Sell {color: #FF9999;}
+.Direct {color: #FFFFFF;}
+.Swap {color: #FFFFFF;}
+.TPS_on {color: #FFFFFF;}
+.TPS_off {color: #555555;}
+
+.style47 {color: #FFFFFF}
+.style49 {color: #E84B37}
+
+body{
+	background-color: #181818;
+	bgcolor: #181818;
+	-webkit-text-size-adjust: 100%;
+	}
+
+td,th {
+	bgcolor: #181818;
+	}
+
+/* unvisited link */
+a:link {
+  color: #bbbbff;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #9999ff;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #5555ff;
+}
+
+/* selected link */
+a:active {
+  color: #3333ff;
+  text-decoration: none;
+  }
+
+
+#tbl_root {
+	border:1px solid #181818;
+	padding:0px;
+	}
+
+#tbl_report{
+	padding:4px;
+	border:0px;
+	bgcolor="#181818";
+	}
+.tbl_report {
+  width: 100%;
+  min-width: 950px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.tbl_report td{
+	border-bottom: 1px solid #777777;
+}
+
+.tbl_report tr{
+	border-bottom: 1px solid #777777;
+}
+
+#tbl_scorechart {
+	border:0px solid #181818;
+	padding:2px;
+	}
+.tbl_scorechart td{
+	border-bottom: 0px solid #181818;
+}
+.tbl_scorechart tr{
+	border-bottom: 0px solid #181818;
+}
+
+p {
+    display: inline;
+}
+
+.status_1 {
+  height: 11px;
+  width: 11px;
+  background-color: #22ff22;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #999999;
+}.status_0 {
+  height: 11px;
+  width: 11px;
+  background-color: #181818;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #999999;
+}.status_on {
+  height: 10px;
+  width: 10px;
+  background-color: #bbbbff;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #9999ff;
+}.status_off {
+  height: 10px;
+  width: 10px;
+  background-color: #181818;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #181818;
+}.status_valid {
+  height: 8px;
+  width: 8px;
+  background-color: #55cc55;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #181818;
+}
+
+.Payment {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #181818;
+  background-color: #55cc55;
+}.OfferCreate {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #181818;
+  background-color: #5555cc;
+}.OfferCancel {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #181818;
+  background-color: #dd1111;
+}.EscrowCancel {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #ffffff;
+  background-color: #dd1111;
+}.EscrowCreate {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #ffffff;
+  background-color: #181818;
+}.EscrowFinish {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #181818;
+  background-color: #ffffff;
+}.PaymentChannelClaim {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #ffff55;
+  background-color: #181818;
+}.PaymentChannelCreate {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #181818;
+  background-color: #ffcc00;
+}.PaymentChannelFund {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #ffcc00;
+  background-color: #339933;
+}.AccountSet {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #181818;
+  background-color: #ff6600;
+}.TrustSet {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #ff6600;
+  background-color: #181818;
+}.SetRegularKey {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #181818;
+  background-color: #cc0099;
+}.SignerListSet {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #cc0099;
+  background-color: #181818;
+}.DepositPreauth {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #55cc55;
+  background-color: #181818;
+}.Other {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid #181818;
+  background-color: #555555;
+}
+
+.IOVLarge {border: 2px outset #272727;
+border-radius: 6px 6px 6px 6px;}
+
+.IOVSmall {
+border: 2px outset #272727;
+border-radius: 6px 6px 6px 6px;
+tr:hover background-color:#f5f5f5;
+}
+
+.filterHeader {
+border: 2px outset #272727;
+border-radius: 34px 34px 34px 34px;
+font-family: "Segoe UI";
+font-size: 16px;
+color: #99ccff;
+background-color: #333;
+}
+
+.XRPHistory {
+border: 2px outset #272727;
+border-radius: 20px 20px 20px 20px;
+font-family: "Segoe UI";
+font-size: 12px;
+color: #99ccff;
+background-color: #333;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 18px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #666666;
+  -webkit-transition: .4s;
+  transition: .4s;
+  box-shadow: 0 0 2px #777777;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 2px;
+  bottom: 2px;
+  background-color: #99ccff;
+  -webkit-transition: .4s;
+  transition: .4s;
+  box-shadow: 0 0 2px #777777;
+}
+
+input:checked + .slider {
+  background-color: #121212;
+  box-shadow: 0 0 2px #777777;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 2px #777777;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  box-shadow: 0 0 2px #777777;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+.Dimslider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #666666;
+  -webkit-transition: .4s;
+  transition: .4s;
+  box-shadow: 0 0 2px #777777;
+}
+
+.Dimslider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 2px;
+  bottom: 2px;
+  background-color: #ffcc33;
+  -webkit-transition: .4s;
+  transition: .4s;
+  box-shadow: 0 0 2px #777777;
+}
+
+input:checked + .Dimslider {
+  background-color: #121212;
+  box-shadow: 0 0 2px #777777;
+}
+
+input:focus + .Dimslider {
+  box-shadow: 0 0 2px #777777;
+}
+
+input:checked + .Dimslider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  box-shadow: 0 0 2px #777777;
+}
+
+/* Rounded sliders */
+.Dimslider.round {
+  border-radius: 34px;
+}
+
+.Dimslider.round:before {
+  border-radius: 50%;
+}
+
+.setTransparent {
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.setDisplayNone {
+  display: none !important;
+}
+
+.Direct {
+  display: none;
+}
+.Sell {
+  font-size: 1.5rem;
+}

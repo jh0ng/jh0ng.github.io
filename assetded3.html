@@ -1,0 +1,2476 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from dex.xrplapps.com/asset.php?ID=XRP by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jan 2022 06:17:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title></title>
+    
+    <meta charset="utf-8" />
+	<link href="scripts/dex-stylesheet.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">	
+	<meta name="monetization" content="$twitter.xrptipbot.com/xrplapps"/>
+	<script src="../cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
+	<script src="../ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+	<script src="../cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"</script>
+	<script src="scripts/ripple-1.3.3-min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    
+</head>
+<body>
+<script type='text/javascript'>
+var Chart_TPS=[];
+var Chart_VPS=[];
+var Chart_Labels=[];
+var Chart_Categories=[];
+var Chart_StackLabels=[];
+var Chart_StackNative=[];
+var Chart_StackCrypto=[];
+var Chart_StackFiat=[];
+var Chart_StackSecurity=[];
+var Chart_StackCommodity=[];
+var Chart_StackStable=[];
+var Chart_StackUnclassified=[];
+var Chart_StackNFT=[];
+var Chart_StackTotal=[];
+var assetPick = 'XRP';
+Chart_TPS.push('16.036674067315');
+Chart_VPS.push('8410.3732654123');
+Chart_Labels.push('10-13');
+Chart_TPS.push('15.284530636134');
+Chart_VPS.push('7415.2398849113');
+Chart_Labels.push('10-14');
+Chart_TPS.push('15.72344370975');
+Chart_VPS.push('28946.86413702');
+Chart_Labels.push('10-15');
+Chart_TPS.push('15.982669650373');
+Chart_VPS.push('7173.2068663142');
+Chart_Labels.push('10-16');
+Chart_TPS.push('15.303129660836');
+Chart_VPS.push('6499.7335607761');
+Chart_Labels.push('10-17');
+Chart_TPS.push('16.226657238902');
+Chart_VPS.push('9674.0835026495');
+Chart_Labels.push('10-18');
+Chart_TPS.push('16.601825900789');
+Chart_VPS.push('6292.5241894657');
+Chart_Labels.push('10-19');
+Chart_TPS.push('16.545457418287');
+Chart_VPS.push('9640.0641675741');
+Chart_Labels.push('10-20');
+Chart_TPS.push('14.571311679765');
+Chart_VPS.push('10140.371369247');
+Chart_Labels.push('10-21');
+Chart_TPS.push('15.847696884692');
+Chart_VPS.push('12090.207023125');
+Chart_Labels.push('10-22');
+Chart_TPS.push('9.981895633086');
+Chart_VPS.push('2560.4670230753');
+Chart_Labels.push('10-23');
+Chart_TPS.push('15.616916428686');
+Chart_VPS.push('4740.5254245229');
+Chart_Labels.push('10-24');
+Chart_TPS.push('14.042851557393');
+Chart_VPS.push('8319.9822783078');
+Chart_Labels.push('10-25');
+Chart_TPS.push('15.388508166432');
+Chart_VPS.push('11143.971779093');
+Chart_Labels.push('10-26');
+Chart_TPS.push('16.722266685219');
+Chart_VPS.push('25020.072765478');
+Chart_Labels.push('10-27');
+Chart_TPS.push('19.27480494106');
+Chart_VPS.push('11852.778994907');
+Chart_Labels.push('10-28');
+Chart_TPS.push('20.814478527567');
+Chart_VPS.push('15537.102175069');
+Chart_Labels.push('10-29');
+Chart_TPS.push('20.891269090834');
+Chart_VPS.push('7423.1642860397');
+Chart_Labels.push('10-30');
+Chart_TPS.push('24.019183101343');
+Chart_VPS.push('8722.6420084005');
+Chart_Labels.push('10-31');
+Chart_TPS.push('22.431023287873');
+Chart_VPS.push('23006.373792901');
+Chart_Labels.push('11-01');
+Chart_TPS.push('22.709412777953');
+Chart_VPS.push('12084.241305428');
+Chart_Labels.push('11-02');
+Chart_TPS.push('16.887959308781');
+Chart_VPS.push('12766.388098011');
+Chart_Labels.push('11-03');
+Chart_TPS.push('14.554936546861');
+Chart_VPS.push('12600.102394436');
+Chart_Labels.push('11-04');
+Chart_TPS.push('15.447107876648');
+Chart_VPS.push('11826.431312343');
+Chart_Labels.push('11-05');
+Chart_TPS.push('21.941226208828');
+Chart_VPS.push('5520.4652006396');
+Chart_Labels.push('11-06');
+Chart_TPS.push('25.230695702916');
+Chart_VPS.push('5784.6660603913');
+Chart_Labels.push('11-07');
+Chart_TPS.push('23.372595443884');
+Chart_VPS.push('12268.115102337');
+Chart_Labels.push('11-08');
+Chart_TPS.push('23.143058725566');
+Chart_VPS.push('9642.2684259315');
+Chart_Labels.push('11-09');
+Chart_TPS.push('22.158872587673');
+Chart_VPS.push('12906.603090567');
+Chart_Labels.push('11-10');
+Chart_TPS.push('21.546674187426');
+Chart_VPS.push('13404.786209388');
+Chart_Labels.push('11-11');
+Chart_TPS.push('22.330636162763');
+Chart_VPS.push('11433.466562498');
+Chart_Labels.push('11-12');
+Chart_TPS.push('21.673246507003');
+Chart_VPS.push('5551.0506144026');
+Chart_Labels.push('11-13');
+Chart_TPS.push('15.327039457028');
+Chart_VPS.push('4130.9253569696');
+Chart_Labels.push('11-14');
+Chart_TPS.push('24.281937092736');
+Chart_VPS.push('13019.648569908');
+Chart_Labels.push('11-15');
+Chart_TPS.push('15.47844668266');
+Chart_VPS.push('8225.2309767704');
+Chart_Labels.push('11-16');
+Chart_TPS.push('22.877232428743');
+Chart_VPS.push('10516.058246833');
+Chart_Labels.push('11-17');
+Chart_TPS.push('21.315065806998');
+Chart_VPS.push('19095.391268145');
+Chart_Labels.push('11-18');
+Chart_TPS.push('22.528224032722');
+Chart_VPS.push('10612.974522999');
+Chart_Labels.push('11-19');
+Chart_TPS.push('20.079305665048');
+Chart_VPS.push('6003.6841295268');
+Chart_Labels.push('11-20');
+Chart_TPS.push('22.79042328512');
+Chart_VPS.push('5624.0303046431');
+Chart_Labels.push('11-21');
+Chart_TPS.push('23.077728805474');
+Chart_VPS.push('15145.462533288');
+Chart_Labels.push('11-22');
+Chart_TPS.push('18.729196662383');
+Chart_VPS.push('20839.414396515');
+Chart_Labels.push('11-23');
+Chart_TPS.push('17.554776815199');
+Chart_VPS.push('36556.995868208');
+Chart_Labels.push('11-24');
+Chart_TPS.push('16.376863593592');
+Chart_VPS.push('14688.774367813');
+Chart_Labels.push('11-25');
+Chart_TPS.push('16.751193608009');
+Chart_VPS.push('18206.202718073');
+Chart_Labels.push('11-26');
+Chart_TPS.push('15.531361003781');
+Chart_VPS.push('12372.667657066');
+Chart_Labels.push('11-27');
+Chart_TPS.push('16.666809047607');
+Chart_VPS.push('9122.5449375014');
+Chart_Labels.push('11-28');
+Chart_TPS.push('15.269023541667');
+Chart_VPS.push('13692.782075922');
+Chart_Labels.push('11-29');
+Chart_TPS.push('17.27631941917');
+Chart_VPS.push('12877.204919319');
+Chart_Labels.push('11-30');
+Chart_TPS.push('12.397796179881');
+Chart_VPS.push('23829.884291291');
+Chart_Labels.push('12-01');
+Chart_TPS.push('10.041808709039');
+Chart_VPS.push('13031.152494258');
+Chart_Labels.push('12-02');
+Chart_TPS.push('11.061745154919');
+Chart_VPS.push('13593.627931236');
+Chart_Labels.push('12-03');
+Chart_TPS.push('12.339066990391');
+Chart_VPS.push('25670.381525071');
+Chart_Labels.push('12-04');
+Chart_TPS.push('10.688001923964');
+Chart_VPS.push('8834.8210764787');
+Chart_Labels.push('12-05');
+Chart_TPS.push('12.950970819561');
+Chart_VPS.push('22882.48832391');
+Chart_Labels.push('12-06');
+Chart_TPS.push('11.452271302718');
+Chart_VPS.push('11273.860818002');
+Chart_Labels.push('12-07');
+Chart_TPS.push('13.62258711921');
+Chart_VPS.push('10992.134590765');
+Chart_Labels.push('12-08');
+Chart_TPS.push('14.056582166304');
+Chart_VPS.push('14473.515798074');
+Chart_Labels.push('12-09');
+Chart_TPS.push('13.508011589739');
+Chart_VPS.push('13223.118754756');
+Chart_Labels.push('12-10');
+Chart_TPS.push('12.980591100516');
+Chart_VPS.push('7586.2565404665');
+Chart_Labels.push('12-11');
+Chart_TPS.push('14.385256885392');
+Chart_VPS.push('7016.6357116421');
+Chart_Labels.push('12-12');
+Chart_TPS.push('13.707224535952');
+Chart_VPS.push('12483.951407372');
+Chart_Labels.push('12-13');
+Chart_TPS.push('14.66509935689');
+Chart_VPS.push('12977.638891799');
+Chart_Labels.push('12-14');
+Chart_TPS.push('9.4723202742545');
+Chart_VPS.push('10624.579539157');
+Chart_Labels.push('12-15');
+Chart_TPS.push('12.274507290599');
+Chart_VPS.push('14140.717839329');
+Chart_Labels.push('12-16');
+Chart_TPS.push('12.274507290599');
+Chart_VPS.push('14140.717839329');
+Chart_Labels.push('12-17');
+Chart_TPS.push('4.3350878697379');
+Chart_VPS.push('4466.9042825926');
+Chart_Labels.push('12-18');
+Chart_TPS.push('12.998589450327');
+Chart_VPS.push('11016.843344617');
+Chart_Labels.push('12-19');
+Chart_TPS.push('15.478283096272');
+Chart_VPS.push('24470.626578668');
+Chart_Labels.push('12-20');
+Chart_TPS.push('14.912046360227');
+Chart_VPS.push('33438.208338804');
+Chart_Labels.push('12-21');
+Chart_TPS.push('13.717672262235');
+Chart_VPS.push('23505.304598014');
+Chart_Labels.push('12-22');
+Chart_TPS.push('20.176807452694');
+Chart_VPS.push('39253.669510355');
+Chart_Labels.push('12-23');
+Chart_TPS.push('20.475332678835');
+Chart_VPS.push('61483.593045075');
+Chart_Labels.push('12-24');
+Chart_TPS.push('16.444564470122');
+Chart_VPS.push('19435.283672719');
+Chart_Labels.push('12-25');
+Chart_TPS.push('16.646349968458');
+Chart_VPS.push('9364.8949527644');
+Chart_Labels.push('12-26');
+Chart_TPS.push('16.185834099448');
+Chart_VPS.push('18656.512942998');
+Chart_Labels.push('12-27');
+Chart_TPS.push('16.340174520403');
+Chart_VPS.push('12707.803171691');
+Chart_Labels.push('12-28');
+Chart_TPS.push('16.846566982533');
+Chart_VPS.push('17810.518440271');
+Chart_Labels.push('12-29');
+Chart_TPS.push('15.978754832364');
+Chart_VPS.push('9681.8630252731');
+Chart_Labels.push('12-30');
+Chart_TPS.push('15.314960593918');
+Chart_VPS.push('15416.836165542');
+Chart_Labels.push('12-31');
+Chart_TPS.push('15.490635173198');
+Chart_VPS.push('20031.273891081');
+Chart_Labels.push('01-01');
+Chart_TPS.push('18.493422220575');
+Chart_VPS.push('5194.8446510189');
+Chart_Labels.push('01-02');
+Chart_TPS.push('17.917053461686');
+Chart_VPS.push('8641.8023458315');
+Chart_Labels.push('01-03');
+Chart_TPS.push('16.993653954773');
+Chart_VPS.push('10598.484215858');
+Chart_Labels.push('01-04');
+Chart_TPS.push('17.955189517002');
+Chart_VPS.push('12337.729800057');
+Chart_Labels.push('01-05');
+Chart_TPS.push('17.020940708046');
+Chart_VPS.push('14940.656029102');
+Chart_Labels.push('01-06');
+Chart_TPS.push('16.507093003914');
+Chart_VPS.push('14823.424985171');
+Chart_Labels.push('01-07');
+Chart_TPS.push('18.803013090043');
+Chart_VPS.push('6164.3095168615');
+Chart_Labels.push('01-08');
+var assetType = 'Native';
+Chart_StackNative.push('152029');
+Chart_StackFiat.push('1866');
+Chart_StackCrypto.push('20577');
+Chart_StackSecurity.push('4639');
+Chart_StackCommodity.push('8');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('99930');
+Chart_StackNFT.push('2237');
+Chart_StackTotal.push('1343106');
+Chart_StackLabels.push('01-08');
+Chart_StackNative.push('163192');
+Chart_StackFiat.push('2437');
+Chart_StackCrypto.push('20358');
+Chart_StackSecurity.push('4852');
+Chart_StackCommodity.push('26');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('103629');
+Chart_StackNFT.push('2364');
+Chart_StackTotal.push('1129193');
+Chart_StackLabels.push('01-07');
+Chart_StackNative.push('175580');
+Chart_StackFiat.push('3273');
+Chart_StackCrypto.push('23342');
+Chart_StackSecurity.push('8294');
+Chart_StackCommodity.push('16');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('121364');
+Chart_StackNFT.push('3209');
+Chart_StackTotal.push('1135345');
+Chart_StackLabels.push('01-06');
+Chart_StackNative.push('186794');
+Chart_StackFiat.push('3890');
+Chart_StackCrypto.push('23271');
+Chart_StackSecurity.push('7866');
+Chart_StackCommodity.push('20');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('55001');
+Chart_StackNFT.push('2869');
+Chart_StackTotal.push('1271454');
+Chart_StackLabels.push('01-05');
+Chart_StackNative.push('194734');
+Chart_StackFiat.push('1801');
+Chart_StackCrypto.push('23018');
+Chart_StackSecurity.push('5989');
+Chart_StackCommodity.push('53');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('95020');
+Chart_StackNFT.push('3073');
+Chart_StackTotal.push('1144354');
+Chart_StackLabels.push('01-04');
+Chart_StackNative.push('185839');
+Chart_StackFiat.push('2140');
+Chart_StackCrypto.push('22365');
+Chart_StackSecurity.push('9524');
+Chart_StackCommodity.push('23');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('118800');
+Chart_StackNFT.push('3649');
+Chart_StackTotal.push('1205504');
+Chart_StackLabels.push('01-03');
+Chart_StackNative.push('166927');
+Chart_StackFiat.push('1100');
+Chart_StackCrypto.push('21785');
+Chart_StackSecurity.push('5967');
+Chart_StackCommodity.push('26');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('124134');
+Chart_StackNFT.push('2809');
+Chart_StackTotal.push('1274916');
+Chart_StackLabels.push('01-02');
+Chart_StackNative.push('143751');
+Chart_StackFiat.push('946');
+Chart_StackCrypto.push('21203');
+Chart_StackSecurity.push('7063');
+Chart_StackCommodity.push('25');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('88962');
+Chart_StackNFT.push('2647');
+Chart_StackTotal.push('1073616');
+Chart_StackLabels.push('01-01');
+Chart_StackNative.push('168902');
+Chart_StackFiat.push('1399');
+Chart_StackCrypto.push('21826');
+Chart_StackSecurity.push('8063');
+Chart_StackCommodity.push('30');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('76702');
+Chart_StackNFT.push('3765');
+Chart_StackTotal.push('1042440');
+Chart_StackLabels.push('12-31');
+Chart_StackNative.push('177454');
+Chart_StackFiat.push('1340');
+Chart_StackCrypto.push('23731');
+Chart_StackSecurity.push('8228');
+Chart_StackCommodity.push('40');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('94765');
+Chart_StackNFT.push('4055');
+Chart_StackTotal.push('1070754');
+Chart_StackLabels.push('12-30');
+Chart_StackNative.push('189796');
+Chart_StackFiat.push('4765');
+Chart_StackCrypto.push('25214');
+Chart_StackSecurity.push('8221');
+Chart_StackCommodity.push('35');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('126768');
+Chart_StackNFT.push('6301');
+Chart_StackTotal.push('1094237');
+Chart_StackLabels.push('12-29');
+Chart_StackNative.push('184452');
+Chart_StackFiat.push('3569');
+Chart_StackCrypto.push('25495');
+Chart_StackSecurity.push('9349');
+Chart_StackCommodity.push('56');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('104349');
+Chart_StackNFT.push('6436');
+Chart_StackTotal.push('1077903');
+Chart_StackLabels.push('12-28');
+Chart_StackNative.push('200950');
+Chart_StackFiat.push('3401');
+Chart_StackCrypto.push('29523');
+Chart_StackSecurity.push('16387');
+Chart_StackCommodity.push('102');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('51701');
+Chart_StackNFT.push('8663');
+Chart_StackTotal.push('1087485');
+Chart_StackLabels.push('12-27');
+Chart_StackNative.push('192768');
+Chart_StackFiat.push('1379');
+Chart_StackCrypto.push('71769');
+Chart_StackSecurity.push('12139');
+Chart_StackCommodity.push('53');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('73751');
+Chart_StackNFT.push('8249');
+Chart_StackTotal.push('1077976');
+Chart_StackLabels.push('12-26');
+Chart_StackNative.push('178196');
+Chart_StackFiat.push('1011');
+Chart_StackCrypto.push('22296');
+Chart_StackSecurity.push('27802');
+Chart_StackCommodity.push('38');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('74373');
+Chart_StackNFT.push('8031');
+Chart_StackTotal.push('1108881');
+Chart_StackLabels.push('12-25');
+Chart_StackNative.push('318474');
+Chart_StackFiat.push('3400');
+Chart_StackCrypto.push('24643');
+Chart_StackSecurity.push('51342');
+Chart_StackCommodity.push('39');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('107162');
+Chart_StackNFT.push('4904');
+Chart_StackTotal.push('1258903');
+Chart_StackLabels.push('12-24');
+Chart_StackNative.push('289314');
+Chart_StackFiat.push('2802');
+Chart_StackCrypto.push('25258');
+Chart_StackSecurity.push('32613');
+Chart_StackCommodity.push('51');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('141764');
+Chart_StackNFT.push('3214');
+Chart_StackTotal.push('1248068');
+Chart_StackLabels.push('12-23');
+Chart_StackNative.push('243201');
+Chart_StackFiat.push('1855');
+Chart_StackCrypto.push('28110');
+Chart_StackSecurity.push('32612');
+Chart_StackCommodity.push('58');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('128281');
+Chart_StackNFT.push('2944');
+Chart_StackTotal.push('747993');
+Chart_StackLabels.push('12-22');
+Chart_StackNative.push('243593');
+Chart_StackFiat.push('3577');
+Chart_StackCrypto.push('24971');
+Chart_StackSecurity.push('32657');
+Chart_StackCommodity.push('33');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('144359');
+Chart_StackNFT.push('3743');
+Chart_StackTotal.push('835317');
+Chart_StackLabels.push('12-21');
+Chart_StackNative.push('233604');
+Chart_StackFiat.push('5618');
+Chart_StackCrypto.push('24443');
+Chart_StackSecurity.push('38988');
+Chart_StackCommodity.push('40');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('92000');
+Chart_StackNFT.push('4391');
+Chart_StackTotal.push('938090');
+Chart_StackLabels.push('12-20');
+Chart_StackNative.push('173152');
+Chart_StackFiat.push('2998');
+Chart_StackCrypto.push('23037');
+Chart_StackSecurity.push('12095');
+Chart_StackCommodity.push('28');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('84101');
+Chart_StackNFT.push('2840');
+Chart_StackTotal.push('824712');
+Chart_StackLabels.push('12-19');
+Chart_StackNative.push('161079');
+Chart_StackFiat.push('3696');
+Chart_StackCrypto.push('25060');
+Chart_StackSecurity.push('17239');
+Chart_StackCommodity.push('35');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('47526');
+Chart_StackNFT.push('4082');
+Chart_StackTotal.push('864897');
+Chart_StackLabels.push('12-18');
+Chart_StackNative.push('141896');
+Chart_StackFiat.push('3221');
+Chart_StackCrypto.push('22615');
+Chart_StackSecurity.push('15482');
+Chart_StackCommodity.push('33');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('37327');
+Chart_StackNFT.push('3727');
+Chart_StackTotal.push('745181');
+Chart_StackLabels.push('12-17');
+Chart_StackNative.push('141896');
+Chart_StackFiat.push('3221');
+Chart_StackCrypto.push('22615');
+Chart_StackSecurity.push('15482');
+Chart_StackCommodity.push('33');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('37327');
+Chart_StackNFT.push('3727');
+Chart_StackTotal.push('745181');
+Chart_StackLabels.push('12-16');
+Chart_StackNative.push('117657');
+Chart_StackFiat.push('2211');
+Chart_StackCrypto.push('15956');
+Chart_StackSecurity.push('10371');
+Chart_StackCommodity.push('15');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('43010');
+Chart_StackNFT.push('2787');
+Chart_StackTotal.push('626278');
+Chart_StackLabels.push('12-15');
+Chart_StackNative.push('166160');
+Chart_StackFiat.push('1999');
+Chart_StackCrypto.push('24229');
+Chart_StackSecurity.push('13447');
+Chart_StackCommodity.push('32');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('71896');
+Chart_StackNFT.push('7063');
+Chart_StackTotal.push('982068');
+Chart_StackLabels.push('12-14');
+Chart_StackNative.push('176611');
+Chart_StackFiat.push('2310');
+Chart_StackCrypto.push('24664');
+Chart_StackSecurity.push('10415');
+Chart_StackCommodity.push('12');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('99800');
+Chart_StackNFT.push('7869');
+Chart_StackTotal.push('862501');
+Chart_StackLabels.push('12-13');
+Chart_StackNative.push('171025');
+Chart_StackFiat.push('2067');
+Chart_StackCrypto.push('24334');
+Chart_StackSecurity.push('15921');
+Chart_StackCommodity.push('22');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('107339');
+Chart_StackNFT.push('4724');
+Chart_StackTotal.push('917265');
+Chart_StackLabels.push('12-12');
+Chart_StackNative.push('167159');
+Chart_StackFiat.push('1279');
+Chart_StackCrypto.push('25207');
+Chart_StackSecurity.push('15616');
+Chart_StackCommodity.push('46');
+Chart_StackStable.push('1');
+Chart_StackUnclassified.push('92688');
+Chart_StackNFT.push('4234');
+Chart_StackTotal.push('815148');
+Chart_StackLabels.push('12-11');
+Chart_StackNative.push('188202');
+Chart_StackFiat.push('1943');
+Chart_StackCrypto.push('26317');
+Chart_StackSecurity.push('16998');
+Chart_StackCommodity.push('26');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('87587');
+Chart_StackNFT.push('4140');
+Chart_StackTotal.push('841710');
+Chart_StackLabels.push('12-10');
+Chart_StackNative.push('194375');
+Chart_StackFiat.push('3386');
+Chart_StackCrypto.push('26627');
+Chart_StackSecurity.push('11367');
+Chart_StackCommodity.push('32');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('118976');
+Chart_StackNFT.push('4666');
+Chart_StackTotal.push('854887');
+Chart_StackLabels.push('12-09');
+Chart_StackNative.push('181732');
+Chart_StackFiat.push('1839');
+Chart_StackCrypto.push('26736');
+Chart_StackSecurity.push('9465');
+Chart_StackCommodity.push('54');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('69127');
+Chart_StackNFT.push('5565');
+Chart_StackTotal.push('882352');
+Chart_StackLabels.push('12-08');
+Chart_StackNative.push('196041');
+Chart_StackFiat.push('3010');
+Chart_StackCrypto.push('26644');
+Chart_StackSecurity.push('13215');
+Chart_StackCommodity.push('59');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('58018');
+Chart_StackNFT.push('5687');
+Chart_StackTotal.push('686686');
+Chart_StackLabels.push('12-07');
+Chart_StackNative.push('199123');
+Chart_StackFiat.push('2777');
+Chart_StackCrypto.push('26161');
+Chart_StackSecurity.push('11586');
+Chart_StackCommodity.push('53');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('76173');
+Chart_StackNFT.push('6854');
+Chart_StackTotal.push('796114');
+Chart_StackLabels.push('12-06');
+Chart_StackNative.push('172853');
+Chart_StackFiat.push('3916');
+Chart_StackCrypto.push('27149');
+Chart_StackSecurity.push('12656');
+Chart_StackCommodity.push('80');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('35524');
+Chart_StackNFT.push('4483');
+Chart_StackTotal.push('666651');
+Chart_StackLabels.push('12-05');
+Chart_StackNative.push('251627');
+Chart_StackFiat.push('12886');
+Chart_StackCrypto.push('30965');
+Chart_StackSecurity.push('20910');
+Chart_StackCommodity.push('208');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('32194');
+Chart_StackNFT.push('6514');
+Chart_StackTotal.push('710686');
+Chart_StackLabels.push('12-04');
+Chart_StackNative.push('214433');
+Chart_StackFiat.push('2515');
+Chart_StackCrypto.push('29229');
+Chart_StackSecurity.push('18758');
+Chart_StackCommodity.push('111');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('20035');
+Chart_StackNFT.push('7038');
+Chart_StackTotal.push('663517');
+Chart_StackLabels.push('12-03');
+Chart_StackNative.push('215123');
+Chart_StackFiat.push('2131');
+Chart_StackCrypto.push('29545');
+Chart_StackSecurity.push('25187');
+Chart_StackCommodity.push('35');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('15112');
+Chart_StackNFT.push('9974');
+Chart_StackTotal.push('570399');
+Chart_StackLabels.push('12-02');
+Chart_StackNative.push('220349');
+Chart_StackFiat.push('10349');
+Chart_StackCrypto.push('30069');
+Chart_StackSecurity.push('16619');
+Chart_StackCommodity.push('62');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('26292');
+Chart_StackNFT.push('6632');
+Chart_StackTotal.push('760669');
+Chart_StackLabels.push('12-01');
+Chart_StackNative.push('263402');
+Chart_StackFiat.push('6114');
+Chart_StackCrypto.push('30353');
+Chart_StackSecurity.push('13360');
+Chart_StackCommodity.push('111');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('36824');
+Chart_StackNFT.push('8933');
+Chart_StackTotal.push('1133382');
+Chart_StackLabels.push('11-30');
+Chart_StackNative.push('245405');
+Chart_StackFiat.push('2259');
+Chart_StackCrypto.push('29364');
+Chart_StackSecurity.push('8945');
+Chart_StackCommodity.push('80');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('62014');
+Chart_StackNFT.push('6021');
+Chart_StackTotal.push('964963');
+Chart_StackLabels.push('11-29');
+Chart_StackNative.push('226074');
+Chart_StackFiat.push('2984');
+Chart_StackCrypto.push('19521');
+Chart_StackSecurity.push('7941');
+Chart_StackCommodity.push('47');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('61973');
+Chart_StackNFT.push('6184');
+Chart_StackTotal.push('1115088');
+Chart_StackLabels.push('11-28');
+Chart_StackNative.push('226843');
+Chart_StackFiat.push('2414');
+Chart_StackCrypto.push('41042');
+Chart_StackSecurity.push('8728');
+Chart_StackCommodity.push('109');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('32999');
+Chart_StackNFT.push('7068');
+Chart_StackTotal.push('1022548');
+Chart_StackLabels.push('11-27');
+Chart_StackNative.push('278167');
+Chart_StackFiat.push('8353');
+Chart_StackCrypto.push('21361');
+Chart_StackSecurity.push('13560');
+Chart_StackCommodity.push('47');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('5365');
+Chart_StackNFT.push('6654');
+Chart_StackTotal.push('1113642');
+Chart_StackLabels.push('11-26');
+Chart_StackNative.push('247859');
+Chart_StackFiat.push('4460');
+Chart_StackCrypto.push('13969');
+Chart_StackSecurity.push('22442');
+Chart_StackCommodity.push('74');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('4932');
+Chart_StackNFT.push('10244');
+Chart_StackTotal.push('1110801');
+Chart_StackLabels.push('11-25');
+Chart_StackNative.push('231754');
+Chart_StackFiat.push('2948');
+Chart_StackCrypto.push('23069');
+Chart_StackSecurity.push('9952');
+Chart_StackCommodity.push('48');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('2982');
+Chart_StackNFT.push('11572');
+Chart_StackTotal.push('1234186');
+Chart_StackLabels.push('11-24');
+Chart_StackNative.push('215216');
+Chart_StackFiat.push('2045');
+Chart_StackCrypto.push('24495');
+Chart_StackSecurity.push('7367');
+Chart_StackCommodity.push('70');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('3756');
+Chart_StackNFT.push('6379');
+Chart_StackTotal.push('1358687');
+Chart_StackLabels.push('11-23');
+Chart_StackNative.push('214040');
+Chart_StackFiat.push('3674');
+Chart_StackCrypto.push('29079');
+Chart_StackSecurity.push('7965');
+Chart_StackCommodity.push('92');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('20877');
+Chart_StackNFT.push('7003');
+Chart_StackTotal.push('1710978');
+Chart_StackLabels.push('11-22');
+Chart_StackNative.push('187629');
+Chart_StackFiat.push('1498');
+Chart_StackCrypto.push('29591');
+Chart_StackSecurity.push('9127');
+Chart_StackCommodity.push('83');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('11165');
+Chart_StackNFT.push('6427');
+Chart_StackTotal.push('1723358');
+Chart_StackLabels.push('11-21');
+Chart_StackNative.push('188819');
+Chart_StackFiat.push('2099');
+Chart_StackCrypto.push('32596');
+Chart_StackSecurity.push('9095');
+Chart_StackCommodity.push('96');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('262');
+Chart_StackNFT.push('5637');
+Chart_StackTotal.push('1496038');
+Chart_StackLabels.push('11-20');
+Chart_StackNative.push('239094');
+Chart_StackFiat.push('5463');
+Chart_StackCrypto.push('61983');
+Chart_StackSecurity.push('11095');
+Chart_StackCommodity.push('76');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('21529');
+Chart_StackNFT.push('9212');
+Chart_StackTotal.push('1492943');
+Chart_StackLabels.push('11-18');
+Chart_StackNative.push('234392');
+Chart_StackFiat.push('4540');
+Chart_StackCrypto.push('41694');
+Chart_StackSecurity.push('15647');
+Chart_StackCommodity.push('115');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('10800');
+Chart_StackNFT.push('8720');
+Chart_StackTotal.push('1660429');
+Chart_StackLabels.push('11-17');
+Chart_StackNative.push('146229');
+Chart_StackFiat.push('4240');
+Chart_StackCrypto.push('18681');
+Chart_StackSecurity.push('10128');
+Chart_StackCommodity.push('99');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('67');
+Chart_StackNFT.push('7115');
+Chart_StackTotal.push('1150620');
+Chart_StackLabels.push('11-16');
+Chart_StackNative.push('212118');
+Chart_StackFiat.push('2645');
+Chart_StackCrypto.push('29664');
+Chart_StackSecurity.push('14116');
+Chart_StackCommodity.push('208');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('43');
+Chart_StackNFT.push('15516');
+Chart_StackTotal.push('1823414');
+Chart_StackLabels.push('11-15');
+Chart_StackNative.push('175718');
+Chart_StackFiat.push('5719');
+Chart_StackCrypto.push('18668');
+Chart_StackSecurity.push('16277');
+Chart_StackCommodity.push('79');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('12211');
+Chart_StackNFT.push('30294');
+Chart_StackTotal.push('1065137');
+Chart_StackLabels.push('11-14');
+Chart_StackNative.push('251580');
+Chart_StackFiat.push('17738');
+Chart_StackCrypto.push('28003');
+Chart_StackSecurity.push('28857');
+Chart_StackCommodity.push('133');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('17798');
+Chart_StackNFT.push('84831');
+Chart_StackTotal.push('1443585');
+Chart_StackLabels.push('11-13');
+Chart_StackNative.push('231208');
+Chart_StackFiat.push('14139');
+Chart_StackCrypto.push('29479');
+Chart_StackSecurity.push('19254');
+Chart_StackCommodity.push('71');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('301');
+Chart_StackNFT.push('18192');
+Chart_StackTotal.push('1616506');
+Chart_StackLabels.push('11-12');
+Chart_StackNative.push('212987');
+Chart_StackFiat.push('7870');
+Chart_StackCrypto.push('34690');
+Chart_StackSecurity.push('10850');
+Chart_StackCommodity.push('93');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('193');
+Chart_StackNFT.push('2641');
+Chart_StackTotal.push('1592065');
+Chart_StackLabels.push('11-11');
+Chart_StackNative.push('250110');
+Chart_StackFiat.push('9937');
+Chart_StackCrypto.push('25004');
+Chart_StackSecurity.push('9944');
+Chart_StackCommodity.push('115');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('66');
+Chart_StackNFT.push('1575');
+Chart_StackTotal.push('1617555');
+Chart_StackLabels.push('11-10');
+Chart_StackNative.push('234319');
+Chart_StackFiat.push('5033');
+Chart_StackCrypto.push('28856');
+Chart_StackSecurity.push('7346');
+Chart_StackCommodity.push('99');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('109550');
+Chart_StackNFT.push('1428');
+Chart_StackTotal.push('1612680');
+Chart_StackLabels.push('11-09');
+Chart_StackNative.push('253062');
+Chart_StackFiat.push('5994');
+Chart_StackCrypto.push('27248');
+Chart_StackSecurity.push('7954');
+Chart_StackCommodity.push('168');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('107472');
+Chart_StackNFT.push('1430');
+Chart_StackTotal.push('1615866');
+Chart_StackLabels.push('11-08');
+Chart_StackNative.push('242052');
+Chart_StackFiat.push('5706');
+Chart_StackCrypto.push('26671');
+Chart_StackSecurity.push('8281');
+Chart_StackCommodity.push('132');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('215113');
+Chart_StackNFT.push('1533');
+Chart_StackTotal.push('1680167');
+Chart_StackLabels.push('11-07');
+Chart_StackNative.push('238539');
+Chart_StackFiat.push('3527');
+Chart_StackCrypto.push('25896');
+Chart_StackSecurity.push('6823');
+Chart_StackCommodity.push('88');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('265164');
+Chart_StackNFT.push('1656');
+Chart_StackTotal.push('1353832');
+Chart_StackLabels.push('11-06');
+Chart_StackNative.push('272207');
+Chart_StackFiat.push('5066');
+Chart_StackCrypto.push('27773');
+Chart_StackSecurity.push('9223');
+Chart_StackCommodity.push('131');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('55106');
+Chart_StackNFT.push('1125');
+Chart_StackTotal.push('963802');
+Chart_StackLabels.push('11-05');
+Chart_StackNative.push('313944');
+Chart_StackFiat.push('16151');
+Chart_StackCrypto.push('32340');
+Chart_StackSecurity.push('14407');
+Chart_StackCommodity.push('140');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('22540');
+Chart_StackNFT.push('1243');
+Chart_StackTotal.push('856640');
+Chart_StackLabels.push('11-04');
+Chart_StackNative.push('277970');
+Chart_StackFiat.push('20886');
+Chart_StackCrypto.push('31542');
+Chart_StackSecurity.push('15215');
+Chart_StackCommodity.push('89');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('53074');
+Chart_StackNFT.push('972');
+Chart_StackTotal.push('1059191');
+Chart_StackLabels.push('11-03');
+Chart_StackNative.push('295910');
+Chart_StackFiat.push('6863');
+Chart_StackCrypto.push('29378');
+Chart_StackSecurity.push('8828');
+Chart_StackCommodity.push('107');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('171951');
+Chart_StackNFT.push('1160');
+Chart_StackTotal.push('1447654');
+Chart_StackLabels.push('11-02');
+Chart_StackNative.push('274303');
+Chart_StackFiat.push('7292');
+Chart_StackCrypto.push('30452');
+Chart_StackSecurity.push('9009');
+Chart_StackCommodity.push('135');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('116354');
+Chart_StackNFT.push('1488');
+Chart_StackTotal.push('1498765');
+Chart_StackLabels.push('11-01');
+Chart_StackNative.push('276351');
+Chart_StackFiat.push('11425');
+Chart_StackCrypto.push('28120');
+Chart_StackSecurity.push('10803');
+Chart_StackCommodity.push('138');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('166243');
+Chart_StackNFT.push('1247');
+Chart_StackTotal.push('1580645');
+Chart_StackLabels.push('10-31');
+Chart_StackNative.push('243789');
+Chart_StackFiat.push('2173');
+Chart_StackCrypto.push('24974');
+Chart_StackSecurity.push('5994');
+Chart_StackCommodity.push('118');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('38498');
+Chart_StackNFT.push('1149');
+Chart_StackTotal.push('1488099');
+Chart_StackLabels.push('10-30');
+Chart_StackNative.push('232109');
+Chart_StackFiat.push('1947');
+Chart_StackCrypto.push('29697');
+Chart_StackSecurity.push('5479');
+Chart_StackCommodity.push('124');
+Chart_StackStable.push('2');
+Chart_StackUnclassified.push('24');
+Chart_StackNFT.push('1088');
+Chart_StackTotal.push('1527679');
+Chart_StackLabels.push('10-29');
+Chart_StackNative.push('230059');
+Chart_StackFiat.push('3688');
+Chart_StackCrypto.push('31742');
+Chart_StackSecurity.push('2696');
+Chart_StackCommodity.push('122');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('115587');
+Chart_StackNFT.push('968');
+Chart_StackTotal.push('1280299');
+Chart_StackLabels.push('10-28');
+Chart_StackNative.push('205140');
+Chart_StackFiat.push('6100');
+Chart_StackCrypto.push('36081');
+Chart_StackSecurity.push('2440');
+Chart_StackCommodity.push('70');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('48816');
+Chart_StackNFT.push('1175');
+Chart_StackTotal.push('1144839');
+Chart_StackLabels.push('10-27');
+Chart_StackNative.push('164169');
+Chart_StackFiat.push('2582');
+Chart_StackCrypto.push('35601');
+Chart_StackSecurity.push('2363');
+Chart_StackCommodity.push('102');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('21387');
+Chart_StackNFT.push('887');
+Chart_StackTotal.push('1102302');
+Chart_StackLabels.push('10-26');
+Chart_StackNative.push('133143');
+Chart_StackFiat.push('1196');
+Chart_StackCrypto.push('32844');
+Chart_StackSecurity.push('1995');
+Chart_StackCommodity.push('84');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('24601');
+Chart_StackNFT.push('1147');
+Chart_StackTotal.push('1018148');
+Chart_StackLabels.push('10-25');
+Chart_StackNative.push('134656');
+Chart_StackFiat.push('1145');
+Chart_StackCrypto.push('28173');
+Chart_StackSecurity.push('1852');
+Chart_StackCommodity.push('86');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('107791');
+Chart_StackNFT.push('1151');
+Chart_StackTotal.push('1074269');
+Chart_StackLabels.push('10-24');
+Chart_StackNative.push('80311');
+Chart_StackFiat.push('719');
+Chart_StackCrypto.push('19689');
+Chart_StackSecurity.push('1296');
+Chart_StackCommodity.push('64');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('46517');
+Chart_StackNFT.push('848');
+Chart_StackTotal.push('712883');
+Chart_StackLabels.push('10-23');
+Chart_StackNative.push('109492');
+Chart_StackFiat.push('1532');
+Chart_StackCrypto.push('23839');
+Chart_StackSecurity.push('1446');
+Chart_StackCommodity.push('43');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('110455');
+Chart_StackNFT.push('1821');
+Chart_StackTotal.push('795856');
+Chart_StackLabels.push('10-22');
+Chart_StackNative.push('144249');
+Chart_StackFiat.push('1737');
+Chart_StackCrypto.push('29184');
+Chart_StackSecurity.push('1594');
+Chart_StackCommodity.push('101');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('68761');
+Chart_StackNFT.push('2653');
+Chart_StackTotal.push('1010503');
+Chart_StackLabels.push('10-21');
+Chart_StackNative.push('155540');
+Chart_StackFiat.push('1903');
+Chart_StackCrypto.push('28961');
+Chart_StackSecurity.push('1482');
+Chart_StackCommodity.push('136');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('71123');
+Chart_StackNFT.push('6350');
+Chart_StackTotal.push('1163842');
+Chart_StackLabels.push('10-20');
+Chart_StackNative.push('149346');
+Chart_StackFiat.push('1365');
+Chart_StackCrypto.push('26996');
+Chart_StackSecurity.push('1498');
+Chart_StackCommodity.push('75');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('106084');
+Chart_StackNFT.push('13669');
+Chart_StackTotal.push('1135179');
+Chart_StackLabels.push('10-19');
+Chart_StackNative.push('140801');
+Chart_StackFiat.push('1564');
+Chart_StackCrypto.push('28803');
+Chart_StackSecurity.push('2437');
+Chart_StackCommodity.push('159');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('93369');
+Chart_StackNFT.push('25829');
+Chart_StackTotal.push('1108859');
+Chart_StackLabels.push('10-18');
+Chart_StackNative.push('129646');
+Chart_StackFiat.push('1976');
+Chart_StackCrypto.push('34190');
+Chart_StackSecurity.push('1731');
+Chart_StackCommodity.push('166');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('107360');
+Chart_StackNFT.push('751');
+Chart_StackTotal.push('1046212');
+Chart_StackLabels.push('10-17');
+Chart_StackNative.push('128861');
+Chart_StackFiat.push('2105');
+Chart_StackCrypto.push('75422');
+Chart_StackSecurity.push('1898');
+Chart_StackCommodity.push('106');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('96132');
+Chart_StackNFT.push('976');
+Chart_StackTotal.push('1075242');
+Chart_StackLabels.push('10-16');
+Chart_StackNative.push('147299');
+Chart_StackFiat.push('1944');
+Chart_StackCrypto.push('29397');
+Chart_StackSecurity.push('1382');
+Chart_StackCommodity.push('124');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('30929');
+Chart_StackNFT.push('588');
+Chart_StackTotal.push('1146667');
+Chart_StackLabels.push('10-15');
+Chart_StackNative.push('125316');
+Chart_StackFiat.push('2918');
+Chart_StackCrypto.push('30888');
+Chart_StackSecurity.push('2801');
+Chart_StackCommodity.push('236');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('56477');
+Chart_StackNFT.push('750');
+Chart_StackTotal.push('1101066');
+Chart_StackLabels.push('10-14');
+Chart_StackNative.push('127132');
+Chart_StackFiat.push('1820');
+Chart_StackCrypto.push('25302');
+Chart_StackSecurity.push('1383');
+Chart_StackCommodity.push('312');
+Chart_StackStable.push('0');
+Chart_StackUnclassified.push('138218');
+Chart_StackNFT.push('812');
+Chart_StackTotal.push('1090387');
+Chart_StackLabels.push('10-13');
+var donutLabels = ['XRP','Fiat','Crypto','NFT','Security','Commodity','Stable','Unidentifed','Ledger'];
+var donutData = ['9.3591325246615','0.11487374968604','1.2667508827918','0.13771306433422','0.28558377534487','0.00049249196006875','0','6.1518401962088','82.683613315013'];
+var donutIOULabels = ['Fiat','Crypto','NFT','Security','Commodity','Stable','Unidentifed'];
+var donutIOUData = ['1.4436355477846','15.919447302661','1.7306606218619','3.5889739047015','0.0061892199261936','0','77.311093403065'];
+</script>
+<table width="100%" border="0" cellspacing="2" cellpadding="2"  id="tbl_root">    
+      <tr>
+        <td align="left" valign="top" nowrap class="style36"><a href="index.html"><img src="images/dex.xrplapps.logo.jpg"></a></td>
+      </tr>
+
+      <tr>
+        <td align="left" valign="top" nowrap class="chartheader"><table width="60%" border="0" cellspacing="0" cellpadding="2">
+          <tr>
+            <td width="0" align="right" valign="top" nowrap="nowrap" class="button4"><table width="950" border="0" align="left" cellpadding="4" cellspacing="0">
+              <tr>
+                <td align="left" valign="bottom" class="fineprint_normal"><span class="style36">XRP Ledger Asset Statistics<br>
+                </span></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom" class="fineprint_normal">
+                
+                <table width="200" cellspacing="2" cellpadding="4">
+                  <tr>
+                    <td width="43%" align="center" valign="middle"><img src="images/XRP.png"></td>                  
+                    <td width="43%" align="right" valign="middle">Asset: </td>
+                    <td width="57%" align="left" valign="middle" class="assetStats">XRP</td>
+                    <td width="57%" align="right" valign="middle" nowrap="nowrap">Category:</td>
+                    <td width="57%" align="left" valign="middle" class="assetStats">Native</td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td align="left" valign="bottom" class="fineprint_red">Disclaimer: The information presented here is for general purposes only. 
+                  <br>
+                  <br><span class="fineprint_normal">
+                  While xrplapps.com strives to ensure data collection is accurate and complete, transient network issues can affect websocket connectivity.<br>
+                  This would ultimately impact the statistics below. As a result data may be inaccurate, and/or incomplete.<br>
+                  IOU assets on the XRP Ledger also require a trusted gateway for redeeming the value of that asset.<br>
+                  There is no guarantee that an assets' IOU volume on the XRP Ledger is an accurate representation of the total value for that asset.</span>
+                  <br>
+                  <br>
+                Do not use the information on this site as the basis for making any financial or investment decisions.</td>
+              </tr>
+
+              <tr>
+                <td width="700" align="left" valign="top" class="charttitle">
+                <table width="100%" border="0" cellspacing="4" cellpadding="2" class="IOVSmall">
+                  <tr>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="2">
+                      <tr>
+                        <td align="center" valign="top" class="style48">Ledger Transactions (Past 90 Days)</td>
+                      </tr>
+                      <tr>
+                        <td align="center" valign="top" class="chartheader">Showing Payments, Market Order Executions by Category &amp; Ledger Functions</td>
+                      </tr>
+                      <tr>
+                        <td><div>
+                          <canvas id="Chart_StackedbyCategories" width="900" height="300"></canvas>
+                        </div></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" class="normal">
+                <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                  <tr>
+                    <td width="100%" align="center"><table width="100%" class="IOVSmall" cellspacing="2" cellpadding="4">
+                      <tr>
+                        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="center">XRP Volume per Second (Past 90 Days)</td>
+                          </tr>
+                          <tr>
+                            <td align="center" class="chartheader">Payments &amp; Market Order Executions</td>
+                          </tr>
+                          <tr>
+                            <td align="center"><div>
+                              <canvas id="Chart_VPS" width="900" height="250"></canvas>
+                            </div></td>
+                          </tr>
+                          </table></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td align="center"><table width="100%" class="IOVSmall" cellspacing="2" cellpadding="4">
+                      <tr>
+                        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="center">XRP Transactions per Second (Past 90 Days)</td>
+                            </tr>
+                                                    
+                          <tr>
+
+                            <td align="center"><div><canvas id="Chart_TPS" width="900" height="250"></canvas></div></td>
+                            </tr>
+                          </table></td>
+                        </tr>
+                      </table></td>
+                  </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" class="fineprint_normal">
+                
+                <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                  <tr>
+                    <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="3">
+                      <tr>
+                        <td colspan="10" align="right">
+                        <table width="100%" border="0" cellspacing="2" cellpadding="0">
+                          <tr>
+                            <td width="4%"><img src="images/XRP.png"></td>
+                            <td width="96%" nowrap="nowrap" class="style48">Daily Summary of Transactions</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                      <tr class="fineprint_blueheader">
+                        <td align="center" valign="bottom" nowrap="nowrap" style='border-bottom: 1px solid #777777'>Date</td>
+                        <td align="right" valign="bottom" style='border-bottom: 1px solid #777777'>Volume</td>
+                        <td align="right" valign="bottom" style='border-bottom: 1px solid #777777'>Transactions</td>
+                        <td align="right" valign="bottom" style='border-bottom: 1px solid #777777'>TPS</td>
+                        <td align="right" valign="bottom" style='border-bottom: 1px solid #777777'>XRP/sec</td>
+                        <td align="right" valign="bottom" style='border-bottom: 1px solid #777777'>Average Txn</td>
+                        <td align="center" valign="bottom" style='border-bottom: 1px solid #777777'>Native<br>
+                          Transactions</td>
+                        <td align="center" valign="bottom" style='border-bottom: 1px solid #777777'>% <br>                          Native Volume</td>
+                        <td align="center" valign="bottom" style='border-bottom: 1px solid #777777'>Ledger<br>
+                          Transactions</td>
+                        <td align="center" valign="bottom" style='border-bottom: 1px solid #777777'> % <br>
+                           Ledger Volume</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2022-01-08</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>532,534,600.5325 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>152,029</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.7598</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>6,164.3095</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,502.8488 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>152,029</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,624,392</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>9.3591</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2022-01-07</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,280,598,589.8617 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>163,192</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.8890</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>14,823.4250</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,847.1898 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>163,192</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,426,051</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>11.4436</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2022-01-06</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,290,709,170.3748 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>175,580</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.0324</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>14,940.6560</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,351.1173 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>175,580</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,470,423</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>11.9408</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2022-01-05</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,065,867,593.7217 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>186,794</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.1622</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,337.7298</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,706.1126 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>186,794</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,551,165</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>12.0422</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2022-01-04</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>915,578,250.9533 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>194,734</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.2542</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>10,598.4842</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,701.6867 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>194,734</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,468,042</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.2649</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2022-01-03</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>746,560,361.5452 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>185,839</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.1512</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>8,641.8023</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,017.2427 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>185,839</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,547,844</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>12.0063</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2022-01-02</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>448,787,476.1920 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>166,924</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.9322</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,194.8447</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,688.5737 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>166,927</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>99.9982</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,597,664</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.4480</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2022-01-01</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,730,472,045.0705 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>143,751</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.6640</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>20,031.2739</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,037.9827 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>143,751</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,338,213</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.7420</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-31</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,331,928,480.0057 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>168,902</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.9550</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>15,416.8362</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,885.8064 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>168,902</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,323,127</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>12.7654</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-30</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>836,393,345.9657 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>177,452</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.0541</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>9,681.8630</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,713.3498 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>177,454</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>99.9989</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,380,367</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>12.8554</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-29</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,538,610,596.5793 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>189,796</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.1970</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>17,810.5184</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>8,106.6545 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>189,796</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,455,337</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.0414</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-28</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,097,812,590.9848 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>184,452</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.1351</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,707.8032</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,951.7522 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>184,452</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,411,609</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.0668</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-27</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,611,641,396.7165 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>200,949</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.3262</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>18,656.5129</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>8,020.1514 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>200,950</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>99.9995</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,398,212</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>14.3719</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-26</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>809,036,552.6839 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>192,768</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.2314</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>9,364.8950</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,196.9443 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>192,768</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,438,084</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.4045</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-25</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,678,992,972.0287 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>178,196</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.0627</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>19,435.2837</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>9,422.1698 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>178,196</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,420,628</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>12.5435</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-24</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,311,576,641.2568 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>318,474</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3.6865</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>61,483.5930</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>16,678.2112 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>318,474</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,768,867</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>18.0044</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-23</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,391,143,193.7491 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>289,314</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3.3489</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>39,253.6695</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>11,721.3242 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>289,314</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,743,084</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>16.5978</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-22</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,030,596,350.6491 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>243,201</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.8152</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>23,505.3046</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>8,349.4572 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>243,201</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,185,054</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>20.5224</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-21</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,888,723,039.8745 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>243,593</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.8197</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>33,438.2083</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>11,858.8097 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>243,593</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,288,250</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>18.9088</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-20</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,114,025,529.9107 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>233,604</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.7041</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>24,470.6266</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>9,049.6119 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>233,604</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,337,174</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>17.4700</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-19</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>951,757,688.7922 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>173,152</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.0043</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>11,016.8433</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,496.6601 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>173,152</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,122,963</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>15.4192</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-18</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,157,779,574.3468 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>161,079</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>0.6215</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,466.9043</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,187.6506 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>161,079</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,123,614</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>14.3358</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-17</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,116,881,605.7333 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>141,896</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.7965</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>14,140.7178</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,871.1282 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>141,896</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>969,482</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>14.6363</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-16</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,116,881,605.7333 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>141,896</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.7965</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>14,140.7178</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,871.1282 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>141,896</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>969,482</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>14.6363</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-15</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>917,825,180.7880 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>117,653</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.3619</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>10,624.5795</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,801.1201 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>117,657</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>99.9966</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>818,285</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>14.3780</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-14</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,121,117,044.3562 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>166,160</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.9234</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,977.6389</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>6,747.2138 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>166,160</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,266,894</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.1155</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-13</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,078,502,107.1706 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>176,611</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.0443</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,483.9514</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>6,106.6531 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>176,611</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,184,182</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>14.9142</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-12</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>606,145,042.6933 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>171,025</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.9798</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,016.6357</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,544.1897 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>171,025</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,242,697</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.7624</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-11</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>655,367,781.0941 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>167,159</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.9350</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,586.2565</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,920.6252 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>167,159</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,121,378</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>14.9066</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-10</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,142,311,827.6251 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>188,202</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.1786</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>13,223.1188</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>6,069.6051 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>188,202</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,166,923</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>16.1281</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-09</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,250,333,943.3383 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>194,375</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.2500</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>14,473.5158</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>6,432.5862 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>194,375</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,214,316</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>16.0070</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-08</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>949,622,367.8094 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>181,732</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.1036</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>10,992.1346</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,225.3999 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>181,732</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,176,870</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>15.4420</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-07</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>973,947,144.9870 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>196,041</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.2693</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>11,273.8608</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,968.0788 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>196,041</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>989,360</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>19.8149</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-06</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,976,829,882.1385 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>199,123</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.3049</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>22,882.4883</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>9,927.6823 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>199,123</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,118,841</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>17.7973</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-05</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>763,219,952.2229 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>172,852</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.0009</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>8,834.8211</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,415.4534 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>172,853</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>99.9994</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>923,312</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>18.7209</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-04</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,217,701,713.0404 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>251,627</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.9126</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>25,670.3815</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>8,813.4489 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>251,627</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,065,990</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>23.6050</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-03</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,174,368,062.1604 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>214,433</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.4821</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>13,593.6279</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,476.6200 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>214,433</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>955,636</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>22.4388</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-02</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,125,753,666.8178 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>215,123</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.4902</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>13,031.1525</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,233.0698 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>215,123</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>867,506</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>24.7979</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-12-01</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,058,654,839.2082 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>220,349</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.5506</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>23,829.8843</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>9,342.7011 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>220,349</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,071,041</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>20.5733</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-30</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,112,445,160.0180 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>263,402</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3.0490</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,877.2049</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,223.3740 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>263,402</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,492,479</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>17.6486</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-29</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,182,883,623.2218 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>245,404</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.8407</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>13,692.7821</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,820.1481 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>245,405</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>99.9996</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,319,051</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>18.6046</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-28</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>788,078,247.8539 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>226,074</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.6170</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>9,122.5449</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,485.9305 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>226,074</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,439,812</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>15.7016</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-27</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,068,872,148.2615 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>226,843</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.6258</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,372.6677</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,711.9468 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>226,843</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,341,751</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>16.9065</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-26</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,572,848,399.5707 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>278,167</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3.2199</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>18,206.2027</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,654.3314 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>278,167</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,447,149</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>19.2217</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-25</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,268,948,646.3697 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>247,859</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.8691</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>14,688.7744</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,119.6392 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>247,859</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,414,781</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>17.5192</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-24</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,158,062,728.1512 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>231,754</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.6827</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>36,556.9959</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>13,626.7884 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>231,754</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,516,511</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>15.2821</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-23</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,800,316,676.2886 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>215,216</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.4912</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>20,839.4144</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>8,365.1619 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>215,216</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,618,015</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.3012</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-22</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,308,431,608.2766 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>214,040</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.4776</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>15,145.4625</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>6,113.0238 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>214,040</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,993,708</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.7358</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-21</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>485,863,268.0761 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>187,629</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.1719</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,624.0303</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,589.4892 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>187,629</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,968,878</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>9.5297</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-20</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>518,655,516.2581 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>188,819</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.1857</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>6,003.6841</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,746.8397 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>188,819</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.0000</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,734,642</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.8852</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-19</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>916,839,193.6785 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>214,359</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.4813</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>10,612.9745</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,277.1201 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>239,094</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>89.6547</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,946,180</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>11.0143</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-18</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,649,638,726.0817 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>239,094</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.7676</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>19,095.3913</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>6,899.5405 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>234,392</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>102.0060</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,841,395</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>12.9844</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-17</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>908,469,810.4155 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>234,392</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.7132</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>10,516.0582</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,875.8567 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>146,229</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>160.2911</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,976,337</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>11.8599</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-16</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>710,575,573.7498 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>146,229</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.6927</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>8,225.2310</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,859.3342 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>212,118</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>68.9376</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,337,179</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.9356</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-15</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,124,771,436.9886 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>212,117</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.4553</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>13,019.6486</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,302.5992 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>175,718</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>120.7144</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,097,724</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.1118</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-14</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>356,870,658.1121 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>175,718</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.0340</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,130.9254</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,030.9283 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>251,580</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>69.8458</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,324,103</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.2707</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-13</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>479,599,632.1260 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>251,580</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.9119</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,551.0506</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,906.3504 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>231,208</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>108.8111</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,872,525</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.4353</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-12</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>987,740,423.4378 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>231,208</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.6763</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>11,433.4666</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,272.0858 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>212,987</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>108.5550</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,929,150</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>11.9850</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-11</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,158,021,947.1675 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>212,987</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.4654</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>13,404.7862</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,437.0546 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>250,110</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>85.1573</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,861,389</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>11.4424</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-10</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,115,002,021.7923 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>250,110</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.8951</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,906.6031</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,458.0465 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>234,319</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>106.7391</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,914,306</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.0653</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-09</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>832,988,135.1258 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>234,319</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.7124</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>9,642.2684</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,554.9321 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>253,062</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>92.5935</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,999,311</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>11.7200</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-08</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,059,861,086.6912 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>253,062</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.9292</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,268.1151</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,188.1479 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>242,052</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>104.5486</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,019,194</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>12.5328</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-07</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>499,731,614.6302 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>242,052</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.8019</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,784.6661</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,064.5630 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>238,539</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>101.4727</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,179,655</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>11.1051</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-06</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>476,918,641.6405 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>238,539</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.7612</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,520.4652</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,999.3319 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>272,207</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>87.6315</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,895,525</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>12.5843</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-05</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,021,652,748.2975 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>272,207</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3.1510</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>11,826.4313</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,753.2200 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>313,944</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>86.7056</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,334,433</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>20.3987</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-04</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,088,526,336.0831 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>313,944</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3.6340</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,600.1024</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,467.2627 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>277,970</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>112.9417</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,257,405</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>24.9676</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-03</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,102,879,344.0803 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>277,970</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3.2176</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,766.3881</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,967.6200 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>295,910</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>93.9373</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,458,939</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>19.0529</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-02</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,043,949,534.1030 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>295,910</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3.4253</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,084.2413</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,527.9292 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>274,303</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>107.8771</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,961,851</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>15.0832</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-11-01</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,987,502,065.8214 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>274,303</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3.1752</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>23,006.3738</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,245.6447 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>276,351</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>99.2589</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,937,798</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>14.1554</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-31</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>753,532,618.3696 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>276,351</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3.1989</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>8,722.6420</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,726.7230 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>243,789</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>113.3566</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,074,972</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.3183</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-30</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>641,286,190.2361 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>243,789</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.8220</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,423.1643</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,630.4968 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>232,109</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>105.0321</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,804,794</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.5079</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-29</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,342,239,955.8075 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>232,109</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.6868</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>15,537.1022</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,782.8001 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>230,059</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.8911</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,798,149</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>12.9082</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-28</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,023,968,096.3979 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>230,059</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.6630</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>11,852.7790</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,450.8935 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>205,140</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>112.1473</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,665,161</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>13.8160</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-27</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,161,520,565.4743 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>205,140</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2.3745</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>25,020.0728</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>10,536.8069 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>164,169</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>124.9566</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,444,661</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>14.1999</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-26</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>962,713,078.8182 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>164,169</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.9004</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>11,143.9718</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,864.1588 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>133,143</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>123.3028</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,329,393</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>12.3492</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-25</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>718,760,931.1068 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>133,143</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.5412</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>8,319.9823</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,398.4132 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>134,656</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>98.8764</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,213,158</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.9749</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-24</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>409,527,188.7708 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>134,656</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.5587</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,740.5254</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,041.2844 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>80,311</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>167.6682</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,349,123</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>9.9810</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-23</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>221,196,446.8241 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>80,311</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>0.9296</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,560.4670</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,754.2484 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>109,492</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>73.3487</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>862,327</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>9.3133</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-22</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>796,836,782.2923 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>109,492</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.6613</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>12,090.2070</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,277.5799 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>144,249</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>75.9049</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,044,484</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.4829</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-21</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>876,003,288.7533 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>144,249</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.6698</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>10,140.3714</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>6,072.8552 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>155,540</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>92.7408</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,258,782</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>11.4594</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-20</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>832,790,538.7408 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>155,540</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.8005</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>9,640.0642</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,354.1889 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>149,346</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>104.1474</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,429,337</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.8820</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-19</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>543,603,682.9174 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>149,346</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.7288</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>6,292.5242</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>3,639.8945 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>140,801</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>106.0688</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,434,212</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.4131</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-18</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>835,744,122.1631 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>140,801</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.6298</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>9,674.0835</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,935.6405 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>129,646</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>108.6042</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,401,821</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.0441</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-17</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>561,509,700.9085 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>129,646</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.5007</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>6,499.7336</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,331.0993 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>128,861</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>100.6092</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,322,032</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>9.8066</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-16</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>619,692,968.1755 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>128,861</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.4916</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,173.2069</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>4,809.0033 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>147,299</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>87.4826</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,380,742</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>9.3327</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-15</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>2,500,685,898.6532 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>147,299</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.7051</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>28,946.8641</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>16,976.9374 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>125,316</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>117.5421</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,358,330</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>10.8441</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#252525">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-14</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>640,612,954.9940 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>125,312</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.4505</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>7,415.2399</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,112.1437 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>127,132</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>98.5684</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,320,452</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>9.4901</td>
+                      </tr>
+                     
+                      <tr class="fineprint_header" style="background-color:#2d2d2d">
+                        <td align="center" style='border-bottom: 1px solid #777777'>2021-10-13</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>726,549,976.6537 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>127,132</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1.4717</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>8,410.3733</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>5,714.9260 XRP</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>135,796</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>93.6198</td>
+                        <td align="right" style='border-bottom: 1px solid #777777'>1,385,366</td>
+                        <td align="center" style='border-bottom: 1px solid #777777'>9.1768</td>
+                      </tr>
+                                        
+                    </table></td>
+                  </tr>
+                </table>                  <p id="hiddenassets"></p></td>
+              </tr>              
+              <tr>              
+                <td align="left" valign="top" class="fineprint_header" id="init"></td>
+              </tr>              
+              </table></td>
+          </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td align="left" valign="top" nowrap class="chartheader">
+		</td>
+        </tr>
+      </table>
+			<script type="application/javascript" src="scripts/charts-min.js"></script> 
+</body>
+
+
+<!-- Mirrored from dex.xrplapps.com/asset.php?ID=XRP by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jan 2022 06:17:20 GMT -->
+</html>
