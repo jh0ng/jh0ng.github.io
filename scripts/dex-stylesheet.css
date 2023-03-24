@@ -402,7 +402,7 @@ input:checked + .Dimslider:before {
 }
 
 .Direct {
-  display: none;
+  /* display: none; */
 }
 .Sell {
   font-size: 1.5rem;
