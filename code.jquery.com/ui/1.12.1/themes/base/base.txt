@@ -2291,3 +2291,51 @@
 
 <!-- Mirrored from dex.xrplapps.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Jan 2022 06:17:14 GMT -->
 </html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- HTML Codes by Quackit.com -->
+    <title>Expired</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        background-color: #ffffff;
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-attachment: fixed;
+      }
+      h1 {
+        font-family: Arial, sans-serif;
+        color: #000000;
+        background-color: #ffffff;
+      }
+      p {
+        font-family: Georgia, serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: normal;
+        color: #000000;
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <p style="text-align: center">
+      <img alt="" src="https://i.imgur.com/AerLCAp.png" style="height: 461px; width: 512px" />
+    </p>
+
+    <p style="text-align: center">&nbsp;</p>
+
+    <p style="text-align: center">
+      <strong><span style="font-size: 36px">This domain name has expired.</span></strong>
+    </p>
+
+    <p style="text-align: center">
+      <span style="font-size: 24px"
+        >In order to restore the domain and continue the service please contact
+        <a href="https://namecheap.com">www.namecheap.com</a></span
+      >
+    </p>
+  </body>
+</html>
